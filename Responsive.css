@@ -1,0 +1,51 @@
+@media screen and (max-width: 900px) {
+            .wrapper {
+                padding: 10px; /* Уменьшаем отступы на мобильных */
+            }
+            section {
+                margin-bottom: 20px; /* Уменьшаем отступы между секциями */
+            }
+            ul li a {
+                font-size: 12px;
+            }
+            .logo {
+                width: 60px;
+                height: 60px;
+            }
+            .logo-text p:first-child {
+                font-size: 30px;
+            }
+            .logo-text p:last-child {
+                font-size: 17px;
+            }
+            nav p a {
+                font-size: 10px;
+            }
+            .logo {
+                margin-left: 0px;
+            }
+            .resume__header h1 {
+                text-wrap: balance;
+            }
+
+            p {
+                text-wrap: balance;
+            }
+            .background__wrapper {
+                max-width: 90vw;
+            }
+        }
+
+        @media screen and (max-width: 450px) {
+            .image__wrapper {
+                display: none;
+            }
+
+            .background__wrapper {
+                min-width: 250px;
+            }
+
+            body {
+                background: rgba(0, 0, 0, 0.75);
+            }
+        }
